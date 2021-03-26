@@ -27,7 +27,7 @@ func Fake_Info() {
 	color.Red("╚═════╝░░░░╚═╝░░░  ╚═════╝░╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝           ░╚════╝░░╚════╝░░╚════╝░╚═════╝░\n")
 	color.Red("\n")
 	color.Red("\n")
-	print("Press Any key to Start...")
+	print("Press Enter To Start...")
 	fmt.Scanln()
 	print("\nName : ", randomdata.FirstName(randomdata.Male), " ")
 	print(randomdata.LastName(), "\n")
@@ -51,6 +51,6 @@ func Fake_Info() {
 	print(" Bye (: ")
 	time.Sleep(500000000 * 10)
 	print("\n")
-	print("ress Any Key To Exit")
+	print("Press Enter To Exit")
 	fmt.Scanln()
 }
